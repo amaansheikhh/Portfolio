@@ -62,3 +62,16 @@ How it works:
 ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/248a2440-5451-4303-ae4c-c28403fbb4eb)
 
   	The source code for this application is in the 'JavaSpringSecurityProject_2' branch. 
+  
+   
+3. CRUD JPA Project
+
+	Intro:
+	
+
+		In this project, I made a CRUD(Create, Read, Update, Delete) library database in Java using JPA (Java Persistence API)
+		which allows us to map objects to a relational database table.
+	
+ 	Purpose:
+
+  		
