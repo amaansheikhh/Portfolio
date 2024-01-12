@@ -61,4 +61,4 @@ How it works:
 ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/cbbbd7ec-2ac5-45c1-bd47-7a01bd61cb87)
 ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/248a2440-5451-4303-ae4c-c28403fbb4eb)
 
-  	The source code for this application is available in the Portfolio/JavaSpringSecurityProject_2 branch. 
+  	The source code for this application is in the 'JavaSpringSecurityProject_2' branch. 
