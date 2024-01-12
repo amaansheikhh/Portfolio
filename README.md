@@ -1,6 +1,7 @@
 Hello and welcome to my portfolio. Here, I have added a few of my recent projects. 
   1.  Donor Database
-      Intro: 
+
+      	Intro: 
         A Project using Talend Open Studio for an enterprise using an Oracle and an Azure SQL database. 
       Purpose:
       	For an employee at a nonprofit organization to be able to insert donation lists into the database by importing a filled-out CSV file into Talend Open Studio rather than inputting records manually. This project
