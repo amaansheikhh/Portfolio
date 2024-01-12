@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Security</title>
+</head>
+<body>
+<h1>Welcome to Spring security [[${userName}]]</h1>
+
+<div th:if="${roles}">
+    <ul>
+        <li th:each="role: ${roles}" th:text="${role}"></li>
+    </ul>
+</div>
+
+<h2>This is an unsecured page you can access the secured page after authenticating.</h2>
+<h3>Authenticate <a href="#" th:href="@{/user}">here</a>
+</h3>
+<h4>Authenticate <a href="#" th:href="@{/manager}">Manager here</a>
+</h4>
+
+</body>
+</html>
