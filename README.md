@@ -40,11 +40,16 @@ Purpose:
 SASC
 
 	Once the project is ran, it will be available on local host. The port configured is 8080. Therefore, it is then 
- 	accessible from 'http://localhost:8080/'. The user will then have two options, to authenticate a user or a manager. One user and one manager have been configured by default.
-  	User: 
-   		Username: bugs
-     		Password: bunny
-       Manager: 
-       		Username: daffy
-	 		Password: duck
+ 	accessible from 'http://localhost:8080/'. The user will then have two options, to authenticate a user or a manager. 
+  	One user and one manager have been configured by default.
+  		
+    		User: 
+   				Username: bugs
+     			Password: bunny
+       		Manager: 
+       			Username: daffy
+				Password: duck
+	
+  	To add a user, log in as a manager(daffy) and create a user with either user or manager privileges. 
+   	
   	Source code is available in the Portfolio/Assignment4 branch. 
