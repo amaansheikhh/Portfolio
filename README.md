@@ -35,11 +35,11 @@ Intro:
      	5. H2 Database
 Purpose: 
 
-	I created this application for an assignment. However, it is a great example of database security using Java.
+	I created this application for an assignment. However, it is a great example of database security and assigning privileges using Java. 
 
-SASC
+How it works: 
 
-	Once the project is ran, it will be available on local host. The port configured is 8080. Therefore, it is then 
+	Once the project has been executed, it will be available on the local host. The port configured is 8080. Therefore, it is then 
  	accessible from 'http://localhost:8080/'. The user will then have two options, to authenticate a user or a manager. 
   	One user and one manager have been configured by default.
   		
@@ -49,7 +49,16 @@ SASC
        		Manager: 
        			Username: daffy
 				Password: duck
+    
 	
-  	To add a user, log in as a manager(daffy) and create a user with either user or manager privileges. 
+  	To add a user, log in as a manager(daffy) and create a user with either user or manager privileges.
+   Adding a user: 
+   
+   ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/93ac4b9b-fad5-4811-a8d3-0f48648f7f4c)
+
+   Logging into the new user that was created: 
    	
-  	Source code is available in the Portfolio/Assignment4 branch. 
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/cbbbd7ec-2ac5-45c1-bd47-7a01bd61cb87)
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/248a2440-5451-4303-ae4c-c28403fbb4eb)
+
+  	The source code for this application is available in the Portfolio/Assignment4 branch. 
