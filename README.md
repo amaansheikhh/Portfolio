@@ -35,7 +35,8 @@ Intro:
      	5. H2 Database
 Purpose: 
 
-	I created this application for an assignment. However, it is a great example of database security and assigning privileges using Java. 
+	I created this application for an assignment. However, it is a great example of database security and assigning privileges 
+ 	using Java. 
 
 How it works: 
 
@@ -61,4 +62,54 @@ How it works:
 ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/cbbbd7ec-2ac5-45c1-bd47-7a01bd61cb87)
 ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/248a2440-5451-4303-ae4c-c28403fbb4eb)
 
-  	The source code for this application is available in the Portfolio/Assignment4 branch. 
+  	The source code for this application is in the 'JavaSpringSecurityProject_2' branch. 
+  
+   
+3. CRUD JPA Project
+
+	Intro:
+	
+
+		In this project, I made a CRUD(Create, Read, Update, Delete) library database in Java using JPA (Java Persistence API)
+		which allows us to map objects to a relational database table.
+	
+ 	Purpose:
+
+		This application was made to be a character database which could also be used as an employee database after renaming a
+		few fields.    
+  		
+	How it works:
+
+		Similarly to project #3, this project requires you to open an IDE and execute the application. After executing,
+		the application will be ready for use at 'http://localhost:8080/'.
+		New Avengers can be added to the database and added Avengers can be edited or deleted.
+		After any changes have been submitted, the database is then updated immediately.
+
+		Accessing the database: 
+			Navigate to 'http://localhost:8080/h2-console'.
+   			A login page will appear. Use the following credentials to log in. 
+			Driver Class: 'org.h2.Driver'
+   			JDBC URL: 'jdbc:h2:mem:sheridandb'
+			Username: 'sa'
+   			The password field should be left empty.
+   		 Once the connect button has been pressed, the database should appear (figure 3.4).   
+
+Home Page: 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/e2d39dfe-e2b4-4aaf-8e73-6ee37a8338c2) (figure 3.1)
+
+Adding an avenger: 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/7cb0d051-a387-4437-9549-7b70527dbf9a) 
+(figure 3.2) 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/b5f75e51-1dce-479b-880b-852eee2fc948) 
+(figure 3.3)
+
+Database SELECT statement after adding an avenger: 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/68ba5bd8-256a-4355-abcb-3890858e03f9)
+
+(figure 3.4).
+
+	The source code for this application is in the 'JavaCrudJpaProject_3' branch. 
