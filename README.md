@@ -82,12 +82,17 @@ How it works:
 
 		Similarly to project #3, this project requires you to open an IDE and execute the application. After executing,
 		the application will be ready for use at 'http://localhost:8080/'.
-		New Avengers can be added to the database and added avengers can be edited or deleted.
+		New Avengers can be added to the database and added Avengers can be edited or deleted.
 		After any changes have been submitted, the database is then updated immediately.
-		The database is accessible by navigating to 'http://localhost:8080/h2-console'. A log in page will appear.
-		The driver class should be 'org.h2.Driver', the JDBC URL should be 'jdbc:h2:mem:sheridandb', and then the user-
-		name should be 'sa' and the password field should be left empty. Once the connect button has been pressed, the
-		database should appear (figure 3.4).   
+
+		Accessing the database: 
+			Navigate to 'http://localhost:8080/h2-console'.
+   			A login page will appear. Use the following credentials to log in. 
+			Driver Class: 'org.h2.Driver'
+   			JDBC URL: 'jdbc:h2:mem:sheridandb'
+			Username: 'sa'
+   			Password field should be left empty.
+   		 Once the connect button has been pressed, the database should appear (figure 3.4).   
 
 Home Page: 
 
