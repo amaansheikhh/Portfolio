@@ -82,15 +82,28 @@ How it works:
 
 		Similarly to project #3, this project requires you to open an IDE and execute the application. After executing,
 		the application will be ready for use at 'http://localhost:8080/'.
-		New Avengers can be added to the database and added avengers can be edited or deleted. 
+		New Avengers can be added to the database and added avengers can be edited or deleted.
+		After any changes have been submitted, the database is then updated immediately.
+		The database is accessible by navigating to 'http://localhost:8080/h2-console'. A log in page will appear.
+		The driver class should be 'org.h2.Driver', the JDBC URL should be 'jdbc:h2:mem:sheridandb', and then the user-
+		name should be 'sa' and the password field should be left empty. Once the connect button has been pressed, the
+		database should appear (figure 3.4).   
 
 Home Page: 
 
-![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/e2d39dfe-e2b4-4aaf-8e73-6ee37a8338c2)
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/e2d39dfe-e2b4-4aaf-8e73-6ee37a8338c2) (figure 3.1)
 
 Adding an avenger: 
 
-![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/7cb0d051-a387-4437-9549-7b70527dbf9a) ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/b5f75e51-1dce-479b-880b-852eee2fc948)
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/7cb0d051-a387-4437-9549-7b70527dbf9a) 
+(figure 3.2) 
 
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/b5f75e51-1dce-479b-880b-852eee2fc948) 
+(figure 3.3)
 
+Database SELECT statement after adding an avenger: 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/68ba5bd8-256a-4355-abcb-3890858e03f9)
+
+(figure 3.4).
 
