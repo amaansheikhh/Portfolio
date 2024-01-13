@@ -35,7 +35,8 @@ Intro:
      	5. H2 Database
 Purpose: 
 
-	I created this application for an assignment. However, it is a great example of database security and assigning privileges using Java. 
+	I created this application for an assignment. However, it is a great example of database security and assigning privileges 
+ 	using Java. 
 
 How it works: 
 
@@ -74,4 +75,22 @@ How it works:
 	
  	Purpose:
 
+		This application was made to be a character database which could also be used as an employee database after renaming a
+		few fields.    
   		
+	How it works:
+
+		Similarly to project #3, this project requires you to open an IDE and execute the application. After executing,
+		the application will be ready for use at 'http://localhost:8080/'.
+		New Avengers can be added to the database and added avengers can be edited or deleted. 
+
+Home Page: 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/e2d39dfe-e2b4-4aaf-8e73-6ee37a8338c2)
+
+Adding an avenger: 
+
+![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/7cb0d051-a387-4437-9549-7b70527dbf9a) ![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/b5f75e51-1dce-479b-880b-852eee2fc948)
+
+
+
