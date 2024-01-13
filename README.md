@@ -113,3 +113,6 @@ Database SELECT statement after adding an avenger:
 (figure 3.4).
 
 	The source code for this application is in the 'JavaCrudJpaProject_3' branch. 
+
+4. Simple grocery list application made with Angular
+   
