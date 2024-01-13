@@ -91,7 +91,7 @@ How it works:
 			Driver Class: 'org.h2.Driver'
    			JDBC URL: 'jdbc:h2:mem:sheridandb'
 			Username: 'sa'
-   			Password field should be left empty.
+   			The password field should be left empty.
    		 Once the connect button has been pressed, the database should appear (figure 3.4).   
 
 Home Page: 
@@ -112,3 +112,4 @@ Database SELECT statement after adding an avenger:
 
 (figure 3.4).
 
+	The source code for this application is in the 'JavaCrudJpaProject_3' branch. 
