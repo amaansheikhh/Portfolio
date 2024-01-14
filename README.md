@@ -67,6 +67,8 @@ How it works:
    
 3. CRUD JPA Project
 
+   		Made in IntelliJ IDEA.
+
 	Intro:
 	
 
@@ -114,5 +116,37 @@ Database SELECT statement after adding an avenger:
 
 	The source code for this application is in the 'JavaCrudJpaProject_3' branch. 
 
-4. Simple grocery list application made with Angular
+4. Simple greeting card generator app made with Angular.
+
+    	Made in Visual Studio Code using Javascript, Typescript, JSON, HTML & CSS.
+
+ 	Intro:
+
+		This project is a card generator made using Angular.
+	Purpose:
+
+  		This application was made to generate cards based on the user's choice of message, color scheme, and either round
+		or edge border style.
+
+	How it works:
+
+		Once the project is opened in Visual Studio Code, within the IDE, open a Command Prompt window and run the
+		'ng serve' command. This will compile the program and launch it to a local host.
+		Once the program has compiled successfully, it will be accessible from 'http://localhost:4200/'.
+		The following page will appear: Refer to figure 4.1.
+
+ 	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/28fb3bc0-eb61-474f-975f-46602ea11d90)
+	(Figure 4.1)
+
+		Once the user chooses fields for the three drop-down lists, the user would click 'Click to create card' and the card
+		will then appear. I have inserted two examples below. Please refer to figure 4.2 and 4.3.
+
+	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/784eeaf0-0e2a-4b3e-9e6d-6fbe657d8c12)
+	(Figure 4.2)
+
+	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/898de581-c392-4a61-9e24-4a5a75f6d833)
+	(Figure 4.3)
+
+  		The source code for this application is in the 'AngularProj_4' branch. 
+
    
