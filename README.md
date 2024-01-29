@@ -166,6 +166,12 @@ Database SELECT statement after adding an avenger:
 		and the directory is therefore always going to be empty at start-up. If a business was to use this application, we
 		would add the necessary feature of uploading the data inputted by the user into a database. This would ensure that
 		the user is still able to see all of their data after reopening the application.
+
+	UML Diagram:
+
+	![UML DIAGRAM](https://github.com/amaansheikhh/Portfolio/assets/98118572/95d6b76e-7c50-4591-947c-ce335868443f)
+
+
 	How it works:
 
 		Once the project is executed in Apache Netbeans, the employee directory application will appear. Please refer to
