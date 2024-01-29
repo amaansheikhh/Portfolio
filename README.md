@@ -1,4 +1,4 @@
-Hello and welcome to my portfolio. Here, I have added a few of my recent projects. 
+Hello and welcome to my portfolio. Here, I have added a few(5) of my recent projects. 
   1.  Donation Database
 
 
@@ -149,4 +149,57 @@ Database SELECT statement after adding an avenger:
 
   		The source code for this application is in the 'AngularProj_4' branch. 
 
-   
+	
+ 
+5. Employee Directory Application
+
+    		Made in Apache Netbeans IDE 13.0 using Java and FXML.
+
+ 	Intro:
+
+		Employee Directory Application made using JavaFX.
+
+	Purpose:
+
+		The purpose of this application is to act as an employee directory for a business. The application has the ability
+		to add, edit, and delete employees. Unfortunately, the application does not have the feature to link to a database
+		and the directory is therefore always going to be empty at start-up. If a business was to use this application, we
+		would add the necessary feature of uploading the data inputted by the user into a database. This would ensure that
+		the user is still able to see all of their data after reopening the application.
+	How it works:
+
+		Once the project is executed in Apache Netbeans, the employee directory application will appear. Please refer to
+  		figure 5.1. 
+    
+  	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/6fbbbd19-b102-4ff3-acc9-7de8789ea187)
+  	(figure 5.1)
+		
+  		Once the user presses the "Add Employee" button, the Add Employee page will appear. Please refer to
+    		figure 5.2. 
+  	
+  	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/b0777a0d-35ca-48c0-b97c-9f786af2b735)
+  	(figure 5.2)
+
+
+   		The user would then fill in the fields with an employee's details. Please refer to Figure 5.3 for an example.
+   		After that, they would press submit. They will then notice that all of the fields will clear. The user has two options,
+   		they can fill in the details of another employee that they want to add or they can press the home button. Now once the
+   		user presses the Home button, they will be able to see the updated employee directory with the new employee added.
+   		A screenshot of the updated employee list is below, please refer to Figure 5.4.
+   		 
+   	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/1324b827-a81c-417b-8141-99e35657858f)
+   	(figure 5.3)
+   	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/9a0b554b-00e2-4b00-b820-8217bdffe110)
+   	                                                                                              (figure 5.4)
+
+   		Now, let's look into editing an employee's information. By clicking on the employee from the home page list, a more info
+   		page will appear. Please refer to Figure 5.5 for a screenshot showing what the page will look like. The user can press
+   		edit or delete at the bottom of the page. Pressing edit will enable the fields to be editable so that the user can
+   		change the employee's details. Once the user is done editing, pressing Save will make the changes and disable editing the
+   		fields. Now once the user clicks home, they will see the updated values in the employee list. Pressing delete will remove
+   		the employee permanently. 
+
+   	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/9015f0c5-5563-4900-90d1-b40d1de10f01)
+   	(figure 5.5)
+
+		The source code for this project is available under 'CalculatorApp-JavaFX' branch.  
