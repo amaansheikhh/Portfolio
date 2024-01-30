@@ -208,4 +208,4 @@ Database SELECT statement after adding an avenger:
    	![image](https://github.com/amaansheikhh/Portfolio/assets/98118572/9015f0c5-5563-4900-90d1-b40d1de10f01)
    	(figure 5.5)
 
-		The source code for this project is available under 'CalculatorApp-JavaFX' branch.  
+		The source code for this project is available under 'EmployeeDirectory-JavaFX' branch.  
