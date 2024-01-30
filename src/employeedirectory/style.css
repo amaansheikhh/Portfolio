@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan. 23, 2024, 11:20:22 a.m.
+    Author     : amaan
+*/
+
+/* HOME PAGE CSS --->  */
+
+#bPane { 
+    -fx-background-color: #847577;
+}
+
+#txtSearch { 
+    -fx-background-color: #847577;
+    -fx-text-fill: #FBFBF2;
+    -fx-prompt-text-fill: #FBFBF2;
+    -fx-border-color: #FBFBF2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 7px;
+    -fx-padding: 3px;
+}
+
+#btnSearch, #btnAddEmployee { 
+    -fx-text-fill: #FBFBF2;
+    -fx-background-color: #847577;
+    -fx-border-color: #FBFBF2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 7px;
+    -fx-padding: 3px;
+}
+
+
+#tblEmployees.table-view { 
+    -fx-background-color: #cfd2cd;
+    -fx-text-color: #FBFBF2;
+    -fx-text-fill: #FBFBF2;
+    
+}
+
+
+#tblColFName, #tblColLName, #tblColEmail { 
+    -fx-background-color: #847577;
+    -fx-width: 100%;
+    -fx-text-color: #FBFBF2;
+}
+                         
+
+.table-view .column-header .label { 
+    -fx-text-fill: #FBFBF2;
+}
+
+/* ADD EMPLOYEE PAGE CSS --->  */

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane fx:id="bPane" prefHeight="450.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeedirectory.HomePageController" >
+    <top>
+        <TextField text="Home Page" />   
+        <HBox spacing="2">
+                <TextField fx:id="txtSearch" promptText="Search..." maxWidth="Infinity" HBox.hgrow="ALWAYS" />
+                <Button fx:id="btnSearch" onAction="#searchEmployee" text="Search" maxWidth="Infinity" HBox.hgrow="ALWAYS" />
+        </HBox>
+    </top>
+    
+    <center>
+        <GridPane hgap="5" vgap="5"  style="-fx-background-color: light gray;">
+        <TableView fx:id="tblEmployees" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="ALWAYS" onMouseClicked="#showMoreInfoPage">
+            <columns>
+                <TableColumn fx:id="tblColFName" text="First Name" prefWidth="117.0" />
+                <TableColumn fx:id="tblColLName" text="Last Name" prefWidth="117.0"/>
+                <TableColumn fx:id="tblColEmail" text="Email Address" prefWidth="117.0"/>
+            </columns>
+        </TableView>
+        </GridPane>
+    </center>
+    <bottom>
+        <HBox spacing="2" alignment="BASELINE_RIGHT" >
+            <Button fx:id="btnAddEmployee" onAction="#showAddEmployeePage" text="Add Employee" />
+        </HBox>
+    </bottom>
+    
+</BorderPane>

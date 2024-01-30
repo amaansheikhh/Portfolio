@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="450.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeedirectory.MoreInfoController">
+    <center>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints percentWidth="33"/>
+                <ColumnConstraints percentWidth="33"/>
+                <ColumnConstraints percentWidth="33"/>
+            </columnConstraints>
+            <Label text="Employee Details:" alignment="BASELINE_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    
+            <Label text="ID: " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="First Name: " GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label text="Last Name " GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label text="Age: " GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    
+            <Label text="Phone Number: " GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Address: " GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label text="Email Address: " GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label text="Salary: " GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label text="Job Position " GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Label text="Department: " GridPane.columnIndex="1" GridPane.rowIndex="11" />
+        
+            <TextField fx:id="txtId" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" editable="false" />
+            <TextField fx:id="txtFName" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" editable="false"/>
+            <TextField fx:id="txtLName" text="" GridPane.columnIndex="2" GridPane.rowIndex="3" editable="false"/>
+            <TextField fx:id="txtAge" text="" GridPane.columnIndex="2" GridPane.rowIndex="4" editable="false"/>
+            <TextField fx:id="txtPhoneNum" text="" GridPane.columnIndex="2" GridPane.rowIndex="5" editable="false"/>
+            <TextField fx:id="txtAddress" text="" GridPane.columnIndex="2" GridPane.rowIndex="6" editable="false"/>
+            <TextField fx:id="txtEmailAdd" text="" GridPane.columnIndex="2" GridPane.rowIndex="7" editable="false"/>
+    
+            <Label text="Job Details:" alignment="BASELINE_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+            <TextField fx:id="txtSalary" text="" GridPane.columnIndex="2" GridPane.rowIndex="9" editable="false"/>
+            <TextField fx:id="txtJobPos" text="" GridPane.columnIndex="2" GridPane.rowIndex="10" editable="false"/>
+            <TextField fx:id="txtDeptName" text="" GridPane.columnIndex="2" GridPane.rowIndex="11" editable="false"/>
+    
+        </GridPane>
+    </center>
+        <bottom>
+            <HBox alignment="BOTTOM_RIGHT"  >
+                <Button fx:id="btnHome" onAction="#showHomePage" text="Home" />
+                <Button fx:id="btnDelete" text="Delete"/>
+                <Button fx:id="btnEdit" text="Edit"/>
+                <Button fx:id="btnSaveEdit" text="Save" disable="true" />
+            </HBox>    
+        </bottom>
+</BorderPane>

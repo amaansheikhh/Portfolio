@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\amaan\Documents\Sheridan Soft Eng Year 1\PROG 24178 Prof Muath Alzghool\Final Project\EmployeeDirectory\dist\EmployeeDirectory.jar</jar>
+  <outfile>C:\Users\amaan\Documents\Sheridan Soft Eng Year 1\PROG 24178 Prof Muath Alzghool\Final Project\EmployeeDirectory\dist\EmployeeDirectory.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>employeedirectory.EmployeeDirectory</mainClass>
+    <cp>lib/javafx-swt.jar</cp>
+    <cp>lib/javafx.base.jar</cp>
+    <cp>lib/javafx.controls.jar</cp>
+    <cp>lib/javafx.fxml.jar</cp>
+    <cp>lib/javafx.graphics.jar</cp>
+    <cp>lib/javafx.media.jar</cp>
+    <cp>lib/javafx.swing.jar</cp>
+    <cp>lib/javafx.web.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

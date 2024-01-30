@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<GridPane prefHeight="450.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeedirectory.AddEmployeeController">
+    
+        <columnConstraints>
+            <ColumnConstraints percentWidth="30"/>
+            <ColumnConstraints percentWidth="70"/> 
+        </columnConstraints>
+    <Label text="Employee Details:" alignment="BASELINE_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="txtId" text="" promptText="Employee ID" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <TextField fx:id="txtFName" text="" promptText="First Name" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <TextField fx:id="txtLName" text="" promptText="Last Name" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <TextField fx:id="txtAge" text="" promptText="Age" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    <TextField fx:id="txtPhoneNum" text="" promptText="Phone Number" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    <TextField fx:id="txtAddress" text="" promptText="Address" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+    <TextField fx:id="txtEmailAdd" text="" promptText="Email Address" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+    
+    <Label text="Job Details:" alignment="BASELINE_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+    <TextField fx:id="txtSalary" text="" promptText="Salary" GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+    <TextField fx:id="txtJobPos" text="" promptText="Job Position" GridPane.columnIndex="1" GridPane.rowIndex="10"/>
+    <TextField fx:id="txtDeptName" text="" promptText="Department Name" GridPane.columnIndex="1" GridPane.rowIndex="11"/>
+    
+    <HBox GridPane.columnIndex="1" GridPane.rowIndex="14"  alignment="BASELINE_RIGHT" >
+    <Button id="btnSubmit" onAction="#addEmployee" text="Submit"/>
+    <Button id="btnHome" onAction="#showHomePage" text="Home" />
+    </HBox>
+    </GridPane>
+
